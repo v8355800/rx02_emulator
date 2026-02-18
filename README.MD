@@ -15,7 +15,7 @@
     * [Жгут](#manufacturing_cable)
 * [Корпус](#manufacturing_case)
 * [Прошивка](#firmware)
-* [+Проверка работоспособности](#test)
+* [Проверка работоспособности](#test)
 
 ## <a name='description'></a>Описание
 Устройство позволяет отказаться от использования накопителя `"ГМД-70"`/`"ГМД-7012"` (далее НГМД) в составе ЭВМ `"Электроника-60"`, заменив загрузку с дискет на загрузку с образов.
@@ -52,8 +52,8 @@
 Купить компоненты можно на "ChipDip", "Ozon", "WB", "Aliexpress".
 Обычно удобно всю мелочевку купить на "ChipDip", а остальное на маркетплейсах.
 
-BOM-файл "Адаптер": [Интерактивный](assets/bom/RX02_Adapter_ibom_v1.1.html) / [CSV](assets/bom/RX02_Emulator_bom_v1.2.csv)  
-BOM-файл "Эмулятор": [Интерактивный](assets/bom/RX02_Emulator_ibom_v1.2.html) / [CSV](assets/bom/RX02_Emulator_bom_v1.2.csv)
+BOM-файл "Адаптер": [Интерактивный](https://v8355800.github.io/rx02_emulator/assets/bom/RX02_Adapter_ibom_v1.1.html) / [CSV](assets/bom/RX02_Emulator_bom_v1.2.csv)  
+BOM-файл "Эмулятор": [Интерактивный](https://v8355800.github.io/rx02_emulator/assets/bom/RX02_Emulator_ibom_v1.2.html) / [CSV](assets/bom/RX02_Emulator_bom_v1.2.csv)
 
 [Ссылка на "Корзину" в "ChipDip"](https://www.chipdip.ru/cart/share/P7Al1Tl6KI5sdudKpMeFdJT3irWuv8lbFa3mm7L9Bp3oRmtGSJEMUTi2QN5kUsKruICHdr5GWGdcOhvIBDb02yR9f8PagUMRVEMTWNeX60IBFPVu2m0RJdy3djSNJDYW2)  
 [Excel-таблица покупок](assets/bom/Buy.xlsx)
@@ -184,7 +184,7 @@ Gerber-файлы находятся в папке ["gerbers"](gerbers/).
 > [!WARNING]
 > Рекомендованная длина жгута - `0.5÷1.5м`.
 
-## <a name='manufacturing_case'></a>+Корпус
+## <a name='manufacturing_case'></a>Корпус
 |Адаптер|Эмулятор|
 |:-:|:-:|
 |![](assets/adapter/RX02_Adapter_Case.png)|![](assets/emulator/RX02_Emulator_Case.png)|
@@ -196,7 +196,7 @@ STL-файлы для печати находятся в папке ["3D"](asset
     * [Верхняя крышка](assets/3D/RX02_Adapter_Top.stl)
     * [Нижняя крышка](assets/3D/RX02_Adapter_Bottom.stl)
 * Корпус "Эмулятора"  
-    * Верхняя крышка: [(Китайский клон)](assets/3D/RX02_Shield_Body_CH340.stl)/[(Оригинал Arduino)](3D/RX02_Shield_Body_Orig.stl)
+    * Верхняя крышка: [(Китайский клон)](assets/3D/RX02_Shield_Body_CH340.stl)/[(Оригинал Arduino)](assets/3D/RX02_Shield_Body_Orig.stl)
     * [Нижняя крышка](assets/3D/RX02_Shield_Lid.stl)
     * [Кнопки меню (4шт.)](assets/3D/RX02_Shield_Button.stl)
 
